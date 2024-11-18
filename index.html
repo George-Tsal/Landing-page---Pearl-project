@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script defer src="https://kit.fontawesome.com/2e502e6e3e.js" crossorigin="anonymous"></script>
+  <title>Pearl shop project</title>
+</head>
+<body>
+  <!--navbar-->
+  <nav id="navbar" class="navbar navbar-expand-lg custom-navbar fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand me-auto text-uppercase" href="#">Logo</a>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-uppercase" id="logo">Because we care</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item py-2 py-lg-0">
+              <a class="nav-link" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0">
+              <a class="nav-link" href="#">Our impact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <i title="Log in / Sign in" class="fa-regular fa-user custom-icon"></i>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <!--hero-->
+  <div class="container-fluid hero-bg d-flex justify-content-center custom-margin align-items-center">
+    <div class="container d-flex flex-column flex-lg-row gap-5">
+      <div class="d-flex flex-column justify-content-center align-items-center gap-3 mobile-wrapper">
+        <h1 class="text-center display-4 fw-normal">Change your outer self</h1>
+        <p class="lead text-center">Because what we wear embodies our feelings!</p>
+        <button class="hero-btn p-3 w-75">Shop now</button>
+      </div>
+      <div>
+        <img class="hero-img" src="images/hero-image-trasparent-woman.png" alt="hero-image" />
+      </div>
+    </div>
+  </div>
+  <!--labels-->
+  <div class="container-fluid d-flex justify-content-center align-items-center bg-labels py-3">
+    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center ">
+      <p class="m-0 m-sm-2">AS SEEN IN</p>
+      <p class="label m-0 m-sm-2">Forbes</p>
+      <p class="label m-0 m-sm-2">Magazine</p>
+      <p class="label m-0 m-sm-2">Cosmopolitan</p>
+      <p class="label m-0 m-sm-2">WomensHealth</p>
+      <p class="label m-0 m-sm-2">Vogue</p>
+      <p class="label m-0 m-sm-2">goop</p>
+      <p class="label m-0 m-sm-2">Elle</p>
+      <p class="label m-0">People</p>
+    </div>
+  </div>
+  <!--main shop-->
+  <div class="container-fluid bg-main-shop">
+    <h2 class="text-center py-5 display-4 fw-normal">Shop Best sellers</h2>
+  </div>
+  <div class="container">
+    <div class="d-flex flex-column flex-wrap flex-lg-nowrap flex-sm-row justify-content-center gap-3">
+      <div class="col-12 col-lg-3 col-sm-5">
+        <div class="card rounded-0">
+          <div class="p-3 d-md-block d-none">
+            <h5 class="card-title">Colorful dress</h5>
+            <p class="card-text">Only 35$</p>
+          </div>
+          <img src= "https://images.unsplash.com/photo-1602414336756-1d5b26bbbdf5?q=80&w=2576&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top rounded-0" alt="colorful dress">
+          <div class="card-body p-0">
+            <div class="p-3 d-md-none">
+              <h5 class="card-title">Colorful dress</h5>
+              <p class="card-text">Only 35$</p>
+            </div>
+            <p class="card-text p-3">A colorful dress is a delightful fashion choice that can brighten up any outfit and uplift one's mood. It adds a touch of vibrancy to your attire.</p>
+            <a class="btn p-3 w-100 card-btn rounded-0">Add to bag</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-sm-5">
+        <div class="card rounded-0">
+          <div class="p-3 d-md-block d-none">
+            <h5 class="card-title">Aesthetic T-shirt</h5>
+            <p class="card-text">Only 17$</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1521577352947-9bb58764b69a?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top rounded-0" alt="aesthetic t-shirt">
+          <div class="card-body p-0">
+            <div class="p-3 d-md-none">
+              <h5 class="card-title">Aesthetic T-shirt</h5>
+              <p class="card-text">Only 17$</p>
+            </div>
+            <p class="card-text p-3">Look for designs and fabrics that cater to your preferences and needs, whether it's casual or formal, comfortable or fashionable, it suits you.</p>
+            <a href="#" class="btn w-100 card-btn p-3 rounded-0">Add to bag</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-sm-5">
+        <div class="card rounded-0">
+          <div class="p-3 d-md-block d-none">
+            <h5 class="card-title">Sporty T-shirt</h5>
+            <p class="card-text">Only 12$</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1554568218-0f1715e72254?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top rounded-0" alt="sporty t-shirt">
+          <div class="card-body p-0">
+            <div class="p-3 d-md-none">
+              <h5 class="card-title">Sporty T-shirt</h5>
+              <p class="card-text">Only 12$</p>
+            </div>
+            <p class="card-text p-3">A T-shirt for women can be a versatile and comfortable clothing item, suitable for various occasions and styles complimenting you and only you!</p>
+            <a href="#" class="btn w-100 card-btn p-3 rounded-0">Add to bag</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-sm-5">
+        <div class="card rounded-0">
+          <div class="p-3 d-md-block d-none">
+            <h5 class="card-title">Everyday jeans</h5>
+            <p class="card-text">Only 26$</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top rounded-0" alt="everyday jeans">
+          <div class="card-body p-0">
+            <div class="p-3 d-md-none">
+              <h5 class="card-title">Everyday jeans</h5>
+              <p class="card-text">Only 26$</p>
+            </div>
+            <p class="card-text p-3">Jeans for women come in various styles, fits, and washes, catering to diverse fashion preferences and occasions without getting in your way.</p>
+            <a href="#" class="btn w-100 card-btn p-3 rounded-0">Add to bag</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--part 2-->
+    <h2 class="text-center py-5 display-4 fw-normal">Why Pearl is better</h2>
+    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center pb-5">
+      <div>
+        <div class="inner-better">
+          <i class="fa-solid fa-earth-americas custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">Global services</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, debitis?</p>
+        </div>
+        <div class="inner-better">
+          <i class="fa-solid fa-truck-fast custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">Fast shipping</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, officia.</p>
+        </div>
+        <div class="inner-better">
+          <i class="fa-brands fa-envira custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">Environmentally friendly</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum dicta reiciendis.</p>
+        </div>
+      </div>
+      <div class="">
+        <img class="shopping-image" src="images/5eaa8fb50494d70004e7fa07.png" alt="shopping" />
+      </div>
+      <div>
+        <div class="inner-better">
+          <i class="fa-solid fa-shirt custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">Innovative designs</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, sequi quidem!</p>
+        </div>
+        <div class="inner-better">
+          <i class="fa-solid fa-money-check-dollar custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">Constant deals</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="inner-better">
+          <i class="fa-solid fa-star custom-icon-shop mb-3"></i>
+          <h3 class="text-uppercase fw-light">High quality</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sapiente ratione iure?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--reviews-->
+  <div class="container-fluid bg-dark text-light text-center py-5">
+    <h2>10000+ Reviews for a reason</h2>
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-3 py-5">
+      <div class="review-card">
+        <div class="d-flex flex-column justify-content-between p-4 align-items-center">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Nihil excepturi architecto vel cum perspiciatis fugit a debitis fuga nobis!
+            Quod.
+          </p>
+          <div>
+            <p class="text-uppercase">Anna Rose</p>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+          </div>
+        </div>
+        <div>
+          <img class="h-100 w-100" src="https://images.unsplash.com/photo-1475178626620-a4d074967452?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="casual jeans" />
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="d-flex flex-column justify-content-between align-items-center p-3">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Nihil excepturi architecto vel cum perspiciatis fugit a debitis fuga nobis!
+            Quod.
+          </p>
+          <div>
+            <p class="text-uppercase">Sarah Brown</p>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+          </div>
+        </div>
+        <div>
+          <img class="h-100 w-100" src="https://images.unsplash.com/photo-1571258205579-6209903969c7?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="jacket" />
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="d-flex flex-column justify-content-between p-3 align-items-center">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Nihil excepturi architecto vel cum perspiciatis fugit a debitis fuga nobis!
+            Quod.
+          </p>
+          <div>
+            <p class="text-uppercase">Christy Berlinghton</p>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+            <i class="fa-solid fa-star green-star"></i>
+          </div>
+        </div>
+        <div>
+          <img class="h-100 w-100" src="https://images.unsplash.com/photo-1519345997025-14aba50d7e9c?q=80&w=2496&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="casual white shirt" />
+        </div>
+      </div>
+    </div>
+    <button class="review-btn p-3">See all reviews</button>
+  </div>
+  <!--categories-->
+  <div class="container py-5">
+    <h2 class="text-center py-5 display-4 fw-normal">Categories</h2>
+    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mb-5 w-100">
+      <div class="option-card col-12 col-md-4">
+        <p class="position-absolute p-1 text-light text-uppercase bg-dark z-3">Upper body</p>
+        <img class="option-img" src="https://images.unsplash.com/photo-1494228766058-1430438d10fc?q=80&w=2673&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="upper body clothes">
+        <button class="option-btn w-100 p-3 rounded-0">Shop now</button>
+      </div>
+      <div class="option-card col-12 col-md-4">
+        <p class="position-absolute p-1 text-light text-uppercase bg-dark z-3">Pants</p>
+        <img class="option-img" src="https://images.unsplash.com/photo-1510390099355-23e690d8129d?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="pants">
+        <button class="option-btn w-100 p-3 rounded-0">Shop now</button>
+      </div>
+      <div class="option-card col-12 col-md-4">
+        <p class="position-absolute p-1 text-light text-uppercase bg-dark z-3">Accessories</p>
+        <img class="option-img" src="https://images.unsplash.com/photo-1489939078242-0a1dc4a08f06?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="accessories">
+        <button class="option-btn w-100 p-3 rounded-0">Shop now</button>
+      </div>
+    </div>
+    <div id="reviewCarousel" class="carousel slide p-5 custom-carousel" data-bs-ride="carousel">
+      <div class="carousel-inner w-100 m-auto">
+        <div class="carousel-item text-center active">
+          <p class="lead fw-normal p-quote">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Corrupti adipisci, repellendus iure inventore modi deserunt!
+          </p>
+          <h2>Forbes</h2>
+        </div>
+        <div class="carousel-item text-center">
+          <p class="lead fw-normal p-quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Nostrum quo recusandae ab quas! Temporibus, id provident veniam impedit dignissimos error?
+          </p>
+          <h2>Vogue</h2>
+        </div>
+        <div class="carousel-item text-center">
+          <p class="lead fw-normal p-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Unde ipsam aperiam nam. 
+            Voluptate eaque soluta tempore iure odit?
+          </p>
+          <h2>Elle</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--FQAs-->
+  <div class="container pb-5">
+    <h2 class="text-center py-5 display-4 fw-normal">FQAs</h2>
+    <div class="accordion accordion-flush" id="fqaAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            <p class="lead fw-normal">How can I pay?</p>
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#fqaAccordion">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus reprehenderit ut voluptas quas optio harum ab provident autem natus. Earum animi pariatur eum eveniet sequi maxime cumque dolor! Doloremque, non.
+          Aperiam recusandae repellat odit non, modi officia aliquid. Veritatis, quia dolores! Excepturi, molestias! Quod praesentium totam, ad maxime libero fugiat eum ipsam necessitatibus, architecto et laborum illum officiis quas. Consectetur.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            <p class="lead fw-normal">Is it possible to get refund?</p>
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#fqaAccordion">
+          <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci accusantium suscipit qui asperiores voluptatibus nulla aperiam, ratione omnis reprehenderit nam velit illo odit, quos maxime iure magnam accusamus quidem dolor.
+          Aperiam, numquam laboriosam fuga tempora velit culpa ea voluptatibus quo impedit incidunt alias deleniti non consequuntur, recusandae suscipit accusamus sapiente soluta minima id molestiae voluptatum commodi ipsum? Illo, inventore distinctio!
+          Veritatis nostrum quis vero, incidunt minus rerum aut necessitatibus sequi! Voluptatibus, non quidem quod blanditiis necessitatibus facilis esse, inventore sit magnam, facere amet dolor quae! Labore, asperiores illo. Expedita, sequi.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            <p class="lead fw-normal">What do I do if a product is damaged?</p>
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#fqaAccordion">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorem, velit quis blanditiis maxime cumque? Doloremque architecto, odio, iste corporis ex laudantium sequi soluta quisquam officia adipisci voluptatem, excepturi velit.
+          Recusandae suscipit, repellendus, natus sequi incidunt odio eius voluptate nulla at quis tempora culpa accusantium qui explicabo in praesentium quod a non! Consequatur hic amet aut, debitis tempora accusantium earum.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            <p class="lead fw-normal">Any carrer opportunities?</p>
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#fqaAccordion">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, doloribus corrupti mollitia esse harum dolorum magni ratione, quisquam dignissimos neque quos? Soluta, consequuntur sunt eaque veritatis aliquid et nulla quaerat!</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+           <p class="lead fw-normal">What do I do if a product is damaged?</p>
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#fqaAccordion">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorem, velit quis blanditiis maxime cumque? Doloremque architecto, odio, iste corporis ex laudantium sequi soluta quisquam officia adipisci voluptatem, excepturi velit.
+          Recusandae suscipit, repellendus, natus sequi incidunt odio eius voluptate nulla at quis tempora culpa accusantium qui explicabo in praesentium quod a non! Consequatur hic amet aut, debitis tempora accusantium earum.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+  <button id="btnTop" class="btn-to-the-top slide-in p-3"><i class="fa-solid fa-arrow-up arrow-up"></i></button>
+  <div id="footer" class="container-fluid bg-dark text-light">
+    <div class="container py-5 d-flex flex-column flex-lg-row">
+      <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+        <h6 class="text-uppercase mb-3">Stay in the know</h6>
+        <h5 class="mb-3">Sign up for 10% off your first order.</h5>
+        <form class="py-3">
+          <input type="text" id="emailAddress" name="emailAddress" class="custom-input mb-3 w-75" placeholder="Enter your email address" required/>
+          <button type="submit" class="submit-btn p-3 my-3 w-50">Subscribe</button>
+        </form>
+        <div class="cetrifications d-flex justify-content-start">
+          <i class="fa-solid fa-trophy certification-icon"></i>
+          <i class="fa-solid fa-medal certification-icon"></i>
+          <i class="fa-solid fa-award certification-icon"></i>
+          <i class="fa-solid fa-person-dress certification-icon"></i>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8 d-flex flex-column justify-content-between">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <div>
+            <h6 class="mb-4 text-uppercase">Shop</h6>
+            <h6 class="pointer-line">All products</h6>
+            <h6 class="pointer-line">Upper body</h6>
+            <h6 class="pointer-line">Pants</h6>
+            <h6 class="pointer-line">Accessories</h6>
+          </div>
+          <div>
+            <h6 class="mb-4 text-uppercase">Learn</h6>
+            <h6 class="pointer-line">Ingredients</h6>
+            <h6 class="pointer-line">Sustainability</h6>
+            <h6 class="pointer-line">About us</h6>
+            <h6 class="pointer-line">Store locator</h6>
+          </div>
+          <div>
+            <h6 class="mb-4 text-uppercase">Help</h6>
+            <h6 class="pointer-line">Account</h6>
+            <h6 class="pointer-line">Wholesale</h6>
+            <h6 class="pointer-line">FQAs</h6>
+            <h6 class="pointer-line">Sitemap</h6>
+          </div>
+          <div>
+            <h6 class="mb-4 text-uppercase">Follow</h6>
+            <h6 class="pointer-line">Instagram</h6>
+            <h6 class="pointer-line">Facebbok</h6>
+            <h6 class="pointer-line">TwitterX</h6>
+            <h6 class="pointer-line">TicTok</h6>
+          </div>
+        </div>
+        <div class="mt-5 mt-lg-0">
+          <p>&copy; Copyrights <span id="copyTarget"></span> | All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
